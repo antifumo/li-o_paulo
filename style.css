@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    background: #ddd;
+}
+
+h2 {
+    margin-top: 30px;
+    border-left: 5px solid #0077cc;
+    padding-left: 10px;
+}
+
+.social a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+.skills {
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f0f8ff;
+    border-left: 4px solid #0077cc;
+    border-radius: 6px;
+}
